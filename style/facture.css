@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(132, 133, 146, 1);
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.facturecontainer {
+
+    margin-top: 10em;
+    background: rgba(81, 83, 97, 1);
+    padding: 2em;
+}
+
+.facturetitle {
+    color: white;
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+.factureunderline {
+    display: block;
+    width: 4em;
+    height: 0.05em;
+    background-color: white;
+    position: relative;
+    right: 0.2em;
+}
+
+.factureinfocontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.infotitle {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 10em;
+}
+
+.info {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 10em;
+    position: relative;
+    right: 20em;
+}

@@ -1,0 +1,150 @@
+body {
+    background-color: rgba(81, 83, 97, 1);
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.tableaucontainer {
+    background-color: rgba(132, 133, 146, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    width: 40em;
+    padding: 20px;
+    position: relative;
+    top: 3em;
+}
+
+
+.myunderline {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 5, 5, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    content: "";
+    height: 0.03em;
+    width: 12em;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.pagetitle {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Gothic';
+    font-size: 2.4em;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+/*
+.infocontainer>* {
+    outline: black solid 1px;
+}
+*/
+
+.sizeselectionlabel {
+    display: inline-block;
+}
+
+.sizeselectionlabel select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 30px 0 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    line-height: 36px;
+    height: 36px;
+    background: #fff;
+    margin: 0 5px 5px 0;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.infotitle {
+    font-family: 'League Gothic';
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.actionbutton {
+    font-family: 'League Gothic';
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    background-color: rgb(83, 84, 99);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    min-width: 9em;
+    text-align: center;
+}
+
+input[type="text"] {
+    font-family: 'Inter';
+    font-size: 1.2em;
+    border: 0.05em solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgba(204, 206, 214, 1);
+    width: 10em;
+    height: 2.35em;
+}
+
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+
+}
+
+
+.card {
+    background-color: rgba(132, 133, 146, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    max-width: 18em;
+    padding: 20px;
+    position: relative;
+    top: 1.5em;
+}
+
+.cardtitle {
+    font-family: 'League Gothic';
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+
+.cardimg {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0.3em;
+}
+
+.cardprice {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Gothic';
+    font-size: 1.5em;
+    text-align: center;
+}

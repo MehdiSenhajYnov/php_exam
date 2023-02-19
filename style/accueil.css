@@ -1,0 +1,60 @@
+body {
+    background-color: rgba(81, 83, 97, 1);
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+    margin-top: 3em;
+}
+
+
+.card {
+    background-color: rgba(132, 133, 146, 1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    max-width: 18em;
+    padding: 20px;
+    position: relative;
+    top: 1.5em;
+}
+
+.cardtitle {
+    font-family: 'League Gothic';
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+
+.cardimg {
+    height: auto;
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+}
+
+.cardprice {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'League Gothic';
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cardlikeimg>img {
+    height: 1.75em;
+    width: 1.75em;
+    position: relative;
+    top: 0.5em;
+    left: 3em;
+}

@@ -1,0 +1,220 @@
+body {
+  background-color: rgba(81, 83, 97, 1);
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.articlecontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  margin-top: 3em;
+  position: relative;
+  top: 1em;
+}
+
+
+.articlecreator {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  margin-top: 3em;
+  position: relative;
+  top: 3em;
+}
+
+.articlecreatorname {
+  font-family: 'League Gothic';
+  font-size: 2em;
+  text-decoration: underline;
+
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.articlecreatorprofilepicture {
+  width: 5em;
+  margin-left: 10em;
+  object-fit: cover;
+}
+
+.cardimg {
+  width: 26em;
+  margin-left: 10em;
+  position: relative;
+  top : 1.7em;
+}
+
+.articletitle {
+  font-family: 'League Gothic';
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  width: 10em;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+.articleprice {
+  font-family: 'League Gothic';
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0.5em;
+
+}
+
+.sizelabel {
+  font-family: 'League Gothic';
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+
+  margin-top: 0.75em;
+
+}
+
+.panierbutton {
+  font-family: 'League Gothic';
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  background-color: rgba(132, 133, 146, 1);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 9em;
+  text-align: center;
+  display: block;
+  margin-top: 2.5em;
+}
+
+
+
+
+
+
+
+/* SelectBar */
+
+
+.sizeselectionlabel {
+  position: relative;
+  display: inline-block;
+  bottom: 0.68em;
+  left: 0.5em;
+}
+
+
+.inlinesizeselectionlabel {
+  position: relative;
+  display: inline-block;
+  top: 1.3em;
+}
+
+.inlinesizeselectionlabel:before,
+.sizeselectionlabel:before {
+  content: '';
+  height: 31px;
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  width: 22px;
+  background: #fff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  pointer-events: none;
+  display: block;
+}
+
+.inlinesizeselectionlabel:after,
+.sizeselectionlabel:after {
+  content: " ";
+  position: absolute;
+  right: 15px;
+  top: 46%;
+  margin-top: -3px;
+  z-index: 2;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6.9px 4px 0 4px;
+  border-color: #aaa transparent transparent transparent;
+  pointer-events: none;
+}
+
+.inlinesizeselectionlabel select,
+.sizeselectionlabel select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0 30px 0 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  line-height: 36px;
+  height: 36px;
+  background: #fff;
+  margin: 0 5px 5px 0;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.articledescription {
+  margin-top: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 5em;
+}
+
+.descriptionTitle {
+  font-family: 'League Gothic';
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.articledescriptiontext {
+  font-family: 'League Gothic';
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.inlineparent {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+
+}
+
+.adminbutton {
+  font-family: 'League Gothic';
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  background-color: rgba(132, 133, 146, 1);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  width: 9em;
+  height: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.modifierbutton {
+  margin-top: 0.5em;
+}
